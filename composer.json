@@ -1,0 +1,21 @@
+{
+    "name": "hlcc/test",
+    "description": "try make a package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "沈丛丛",
+            "email": "1343948033@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"php": ">=7.0"
+     },
+     "autoload": {
+	"psr-4":{
+	     "Flower\\Rose\\": "src/Flower/Rose"
+         }		
+     }
+}
